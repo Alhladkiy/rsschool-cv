@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 body {
     margin: 0px;
     font-family: 'Open Sans', Aria, serif;
+    color: #232323;
 }
 
 .cv-wrapper {
@@ -52,15 +53,13 @@ body {
     margin-bottom: 12px;
     color: #FFFFFF;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .main-left-section-text {
     text-align: center;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 16px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .left-section {
@@ -93,7 +92,7 @@ body {
     align-items: center;
 }
 
-.skill-list .left-section-list-item {
+.skill-list .left-section-list-item, .right-section-list-item {
     padding-left: 16px;
     margin-left: 16px;
 }
@@ -116,8 +115,36 @@ body {
     padding-right: 8px; 
 }
 
-.left-section-list-item:not(:last-child) {
+.left-section-list-item:not(:last-child), 
+.right-section-list-item:not(:last-child) {
     margin-bottom: 12px;
 }
 
+.right-container {
+    padding: 64px 32px;
+}
 
+.right-section:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.right-section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #474747 ;
+    color: #353535;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.right-section-text {
+    line-height: 28px;
+}
+
+.right-section pre {
+    background-color: #DADADA;
+}
+
+.right-section-list-item {
+
+}

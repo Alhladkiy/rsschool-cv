@@ -56,6 +56,55 @@
                     </ul>
                 </section>
             </div>
+            <div class="right-container" >
+                <section class="right-section">
+                    <h2 class="right-section-title">About Me</h2>
+                    <p class="right-section-text">I’m a beginner developer. At the moment I’m studying at RSSchool JavaScript/Front-end course. In development I am attracted by the possibility of continuous improvement of my hard and soft skills. Previous work did not allow me to fully realize my potential and my professional skills. I lead an active lifestyle, I play football and volleyball.</p>
+                </section>
+                <section class="right-section">
+                    <h2 class="right-section-title">Education</h2>
+                    <p class="right-section-text">Academy of the Ministry of Internal Affairs, 2011, Minsk</p> 
+                    <p class="right-section-text">Specialty: lawyer, expert-criminalist</p>
+                </section>
+                <section class="right-section">
+                    <h2 class="right-section-title">Languages</h2>
+                    <ul class="right-section-list">
+                        <li class= "right-section-list-item" >Russian (native speaker)</li>
+                        <li class= "right-section-list-item">Belarusian (native speaker)</li>
+                        <li class= "right-section-list-item">English (A2)</li>
+                    </ul>
+                </section>
+                <section class="right-section">
+                    <h2 class="right-section-title">Code examples</h2>
+                    <pre><code>
+function factorial(n) {
+    if (n < 0) {
+        return null;
+    }
+    
+    let result = 1;
+
+    for (let i = 1; i <= n; i++) {
+        result = result * i;
+    }
+
+    return result;  
+}
+                    </code></pre>
+                    <pre><code>
+function positiveSum(arr) {
+    let result = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            result += arr[i];
+        }
+    }
+    
+    return result;
+}
+                    </code></pre>
+                </section>
         </main>
     </div>
  </body>
