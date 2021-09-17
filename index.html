@@ -34,7 +34,7 @@
                         </li>
                         <li class="contacts-list-item left-section-list-item">
                             <i class="fab fa-telegram-plane contact-icon"></i>
-                            <span class="contact-name"n>Telegram:</span>
+                            <span class="contact-name">Telegram:</span>
                             <span>@alhladkiy</span>
                         </li>
                         <li class="contacts-list-item left-section-list-item">
@@ -89,13 +89,13 @@
                     <h2 class="right-section-title">Code examples</h2>
                     <pre><code>
 function factorial(n) {
-    if (n < 0) {
+    if (n &lt; 0) {
         return null;
     }
     
     let result = 1;
 
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i &lt;= n; i++) {
         result = result * i;
     }
 
@@ -106,7 +106,7 @@ function factorial(n) {
 function positiveSum(arr) {
     let result = 0;
 
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i &lt; arr.length; i++) {
         if (arr[i] > 0) {
             result += arr[i];
         }
@@ -118,6 +118,21 @@ function positiveSum(arr) {
                 </section>
             </div>
         </main>
+        <footer class="footer-container">
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a class="footer-link" href="http://github.com/Alhladkiy" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="footer-list-item">2021</li>
+                <li class="footer-list-item">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img class="rs-logo" src="./img/rs_school_js.svg" alt="rsschool logo">
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </div>
  </body>
 </html>

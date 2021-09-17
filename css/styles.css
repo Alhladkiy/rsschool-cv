@@ -144,3 +144,25 @@ body {
 .right-section pre {
     background-color: #DADADA;
 }
+
+.footer-container {
+    background-color: #EDEDED;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    color: #232323;
+}
+
+.rs-logo {
+    height: 32px;
+}
+
+.footer-link {
+    color: #232323;
+    font-size: 32px;
+}
