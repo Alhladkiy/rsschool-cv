@@ -1,1 +1,1 @@
-# https://alhladkiy.github.io/rsschool-cv/
+# https://alhladkiy.github.io/rsschool-cv/cv
