@@ -47,7 +47,6 @@ Specialty: lawyer, expert-criminalist
 
             return result;
         }
-
 ###### [positiveSum](https://www.codewars.com/kata/5715eaedb436cf5606000381)
 
         function positiveSum(arr) {
