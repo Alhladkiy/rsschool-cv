@@ -183,26 +183,18 @@ body {
 }
 
 .project {
-    width: 200px;
-    height: 105px;
+    
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.project-one {
-    background-image: url('/img/RS-LANG.jpg');
+.project-img {
+    width: 200px;
+    height: 105px;
 }
 
-.project-two {
-    background-image: url('/img/ART-QUIZ.jpg');
-}
-
-.project-three {
-    background-image: url('/img/Momentum.jpg');
-}
-
-.project-four {
-    background-image: url('/img/NEW-YEAR-game.jpg');
+.link {
+    color: #232323;
 }
 
 .main-container-img {
@@ -228,8 +220,7 @@ body {
 
 .certificate-link,
 .project-link {
-    text-decoration: none;
-    color: #232323;
+   text-decoration: none;
 }
 
 .rss-experience {
@@ -283,8 +274,9 @@ body {
 }
 
 @media (max-width: 450px) {
-    .project  {
+    .project-img  {
         width: 130px;
+        height: 80px;
     }
 
     .technology-text {
