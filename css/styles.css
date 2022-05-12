@@ -182,7 +182,61 @@ body {
     color: #232323;
 }
 
-@media (min-width: 828px) {
+.project {
+    width: 200px;
+    height: 105px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.project-one {
+    background-image: url('/img/RS-LANG.jpg');
+}
+
+.project-two {
+    background-image: url('/img/ART-QUIZ.jpg');
+}
+
+.project-three {
+    background-image: url('/img/Momentum.jpg');
+}
+
+.project-four {
+    background-image: url('/img/NEW-YEAR-game.jpg');
+}
+
+.main-container-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top-container-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.bottom-container-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.technology-text {
+    margin: 5px 0;
+}
+
+.certificate-link,
+.project-link {
+    text-decoration: none;
+    color: #232323;
+}
+
+.rss-experience {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 868px) {
     .main-container {
       flex-direction: row;
     }
@@ -207,15 +261,15 @@ body {
     }
 
     .right-container {
-        padding: 64px 32px;
+        padding: 32px 32px;
     }
 
     .left-container {
-        padding: 64px 0;
+        padding: 32px 0;
     }
 
     .right-section:not(:last-child) {
-        margin-bottom: 48px;
+        margin-bottom: 30px;
     }
 
     .left-section {
@@ -225,5 +279,15 @@ body {
     
     .right-section-list {
         padding-left: 32px;
+    }
+}
+
+@media (max-width: 450px) {
+    .project  {
+        width: 130px;
+    }
+
+    .technology-text {
+        font-size: 10px;
     }
 }
