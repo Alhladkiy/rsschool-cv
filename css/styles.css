@@ -160,33 +160,6 @@ body {
     background-color: #dadada;
 }
 
-.footer-container {
-    background-color: #ededed;
-}
-
-.footer-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 32px;
-    list-style: none;
-    color: #232323;
-}
-
-.rs-logo {
-    height: 32px;
-}
-
-.footer-link {
-    font-size: 32px;
-    color: #232323;
-}
-
-.project {
-    
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .project-img {
     width: 200px;
@@ -225,6 +198,28 @@ body {
 
 .rss-experience {
     margin-bottom: 15px;
+}
+
+.footer-container {
+    background-color: #ededed;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    list-style: none;
+    color: #232323;
+}
+
+.rs-logo {
+    height: 32px;
+}
+
+.footer-link {
+    font-size: 32px;
+    color: #232323;
 }
 
 @media (min-width: 868px) {
